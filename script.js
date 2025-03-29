@@ -11,7 +11,7 @@ document.getElementById("search-btn").addEventListener("click", () => {
 });
 
 function fetchDestinations(query = "") {
-    const apiUrl = `https://api.sampleapis.com/futurama/characters`; // Replace with a real travel API
+    const apiUrl = `https://api.sampleapis.com/futurama/characters`; 
 
     fetch(apiUrl)
         .then(response => response.json())
@@ -45,3 +45,4 @@ function displayDestinations(destinations, query) {
         destinationList.appendChild(destElement);
     });
 }
+

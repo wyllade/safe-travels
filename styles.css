@@ -1,73 +1,194 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: linear-gradient(to bottom, #121212, #1e1e1e);
+    color: white;
 }
+
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background: #333;
-    color: white;
+    padding: 20px 50px;
+    background: #121212;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
+
+header h1 {
+    font-size: 24px;
+}
+
 nav ul {
     list-style: none;
     display: flex;
 }
+
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
 }
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+/* Hero Section */
 .hero {
     text-align: center;
     background: url('hero.jpg') no-repeat center center/cover;
     color: white;
-    padding: 100px 20px;
+    padding: 120px 20px;
+    font-size: 24px;
 }
+
+.hero a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.hero a:hover {
+    background: #e64a19;
+}
+
+/* Destinations */
 .destinations {
     text-align: center;
     padding: 50px;
 }
+
 .destination-list {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
+
+.destination {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(255, 87, 34, 0.5);
+}
+
 .destination img {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
 }
+
+/* Booking Section */
 .booking {
     text-align: center;
-    padding: 50px;
-    background: #f4f4f4;
+    padding: 40px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 40%;
+    margin: 40px auto;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
 }
+
+.booking h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.booking form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.booking input, 
+.booking button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+}
+
+.booking input {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.booking input:focus {
+    border-color: #ff7b00;
+    outline: none;
+}
+
+.booking button {
+    background-color: #ff7b00;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.booking button:hover {
+    background-color: #e66a00;
+}
+
+
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 form input, form button {
     margin: 10px;
-    padding: 10px;
+    padding: 12px;
     width: 80%;
     max-width: 300px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
 }
-button {
+
+form input {
+    background: #333;
+    color: white;
+}
+
+form button {
     background: #ff5722;
     color: white;
-    border: none;
     cursor: pointer;
+    transition: 0.3s;
 }
+
+form button:hover {
+    background: #e64a19;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: #333;
+    background: #121212;
     color: white;
 }
