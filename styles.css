@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+.destinations {
+    text-align: center;
+    padding: 50px;
+}
+.destination-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.destination img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+.booking {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input, form button {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+button {
+    background: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
