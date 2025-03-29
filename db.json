@@ -3,41 +3,23 @@
       {
         "id": 1,
         "name": "Paris, France",
-        "image": "https://source.unsplash.com/400x300/?paris",
+        "image": "images/paris.jpeg",
         "description": "The city of love and lights.",
-        "price": 1200
+        "fare": 850
       },
       {
         "id": 2,
-        "name": "Tokyo, Japan",
-        "image": "https://source.unsplash.com/400x300/?tokyo",
-        "description": "A futuristic city with rich history.",
-        "price": 1500
+        "name": "Bali, Indonesia",
+        "image": "images/bali.jpeg",
+        "description": "A tropical paradise with stunning beaches.",
+        "fare": 600
       },
       {
         "id": 3,
-        "name": "Nairobi, Kenya",
-        "image": "https://source.unsplash.com/400x300/?nairobi",
-        "description": "Explore wildlife and vibrant culture.",
-        "price": 800
-      }
-    ],
-    "bookings": [
-      {
-        "id": 1,
-        "user": "John Doe",
-        "destinationId": 1,
-        "checkIn": "2025-04-10",
-        "checkOut": "2025-04-20",
-        "totalPrice": 2400
-      }
-    ],
-    "users": [
-      {
-        "id": 1,
-        "name": "John Doe",
-        "email": "johndoe@example.com",
-        "password": "123456"
+        "name": "New York, USA",
+        "image": "images/New York City!.jpeg",
+        "description": "The city that never sleeps.",
+        "fare": 900
       }
     ]
   }
