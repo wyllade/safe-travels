@@ -14,37 +14,22 @@
         <h1>Travel Explore</h1>
         <nav>
             <ul>
-                <li><a href="#">Destinations</a></li>
-                <li><a href="#">Book a Trip</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#booking">Book a Trip</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="destinations">
-        <h2>Popular Destinations</h2>
-        <!-- Destinations content -->
-    </section>
-    
-    <section id="booking">
-        <h2>Book a Trip</h2>
-        <!-- Booking form -->
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <!-- Contact form -->
-    </section>
-    
 
     <!-- Hero Section -->
     <section class="hero">
         <h2>Explore the World</h2>
         <p>Find your perfect vacation spot today!</p>
-        <a href="#">Book Now</a>
+        <a href="#booking">Book Now</a>
     </section>
 
     <!-- Popular Destinations -->
-    <section class="destinations">
+    <section id="destinations">
         <h2>Popular Destinations</h2>
         <div class="destination-list">
             <div class="destination">
@@ -67,9 +52,21 @@
         <h2>Find Your Destination</h2>
         <form id="searchForm">
             <input type="text" id="searchInput" placeholder="Search for a place...">
-            <button type="submit">Search</button>
+            <button type="submit" id="search-btn">Search</button>
         </form>
-        <div id="searchResults"></div>
+        <div id="destination-list" class="destination-list"></div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <h2>Book a Trip</h2>
+        <p>Plan your next adventure with us!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out for more information.</p>
     </section>
 
     <!-- Footer -->
