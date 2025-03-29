@@ -1,0 +1,44 @@
+{
+    "destinations": [
+      {
+        "id": 1,
+        "name": "Paris, France",
+        "image": "https://source.unsplash.com/400x300/?paris",
+        "description": "The city of love and lights.",
+        "price": 1200
+      },
+      {
+        "id": 2,
+        "name": "Tokyo, Japan",
+        "image": "https://source.unsplash.com/400x300/?tokyo",
+        "description": "A futuristic city with rich history.",
+        "price": 1500
+      },
+      {
+        "id": 3,
+        "name": "Nairobi, Kenya",
+        "image": "https://source.unsplash.com/400x300/?nairobi",
+        "description": "Explore wildlife and vibrant culture.",
+        "price": 800
+      }
+    ],
+    "bookings": [
+      {
+        "id": 1,
+        "user": "John Doe",
+        "destinationId": 1,
+        "checkIn": "2025-04-10",
+        "checkOut": "2025-04-20",
+        "totalPrice": 2400
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "password": "123456"
+      }
+    ]
+  }
+  
